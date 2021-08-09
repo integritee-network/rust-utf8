@@ -1,3 +1,7 @@
+#![no_std]
+
+extern crate sgx_tstd as std;
+
 mod lossy;
 mod read;
 

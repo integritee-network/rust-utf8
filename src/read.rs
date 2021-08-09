@@ -1,5 +1,7 @@
+
 use std::io::{self, BufRead};
 use std::str;
+use std::string::String;
 use super::*;
 
 /// Wraps a `std::io::BufRead` buffered byte stream and decode it as UTF-8.
